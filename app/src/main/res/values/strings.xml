@@ -3,4 +3,5 @@
     <string name="make_a_search">Make a search!</string>
     <string name="query_news_app">Use Key Word to Search in News App</string>
     <string name="news_app_url_currently">News App URL currently</string>
+    <string name="search">Search</string>
 </resources>

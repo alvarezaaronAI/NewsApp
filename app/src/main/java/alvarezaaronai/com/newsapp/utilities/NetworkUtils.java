@@ -17,6 +17,7 @@ public class NetworkUtils {
             "https://newsapi.org/v2/everything";
     final static String PARAM_QUERY = "q";
 
+
     /**
      * Builds the URL used to query GitHub.
      *
@@ -26,6 +27,7 @@ public class NetworkUtils {
     public static URL buildUrl(String newsAppSearchQuery) {
         Uri builtUri = Uri.parse(NEWSAPP_BASE_URL).buildUpon()
                 .appendQueryParameter(PARAM_QUERY, newsAppSearchQuery)
+                .appendQueryParameter("apiKey","f58eb6e9d24a424289aa8acbe8c753a1")
                 .build();
 
         URL url = null;
