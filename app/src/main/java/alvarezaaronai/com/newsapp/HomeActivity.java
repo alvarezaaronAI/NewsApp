@@ -17,7 +17,7 @@ public class HomeActivity extends AppCompatActivity {
     private EditText mSearchBoxEditText;
     private TextView mUrlDisplayTextView;
     private TextView mSearchResultsTextView;
-
+    //PART 1
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
