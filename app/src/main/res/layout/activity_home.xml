@@ -24,6 +24,14 @@
         android:textAlignment="center"
         android:textSize="22sp" />
 
+    <TextView
+        android:id="@+id/tv_credits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:textColor="@android:color/holo_blue_dark"
+        android:text="@string/powered_by_newsapi_org" />
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
