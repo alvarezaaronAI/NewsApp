@@ -4,4 +4,5 @@
     <string name="query_news_app">Use Key Word to Search in News App</string>
     <string name="news_app_url_currently">News App URL currently</string>
     <string name="search">Search</string>
+    <string name="powered_by_newsapi_org">Powered By -NewsAPI.ORG</string>
 </resources>
